@@ -1,0 +1,65 @@
+{
+  "best_model": "Gradient Boosting Regressor",
+  "best_r2": 0.5012,
+  "residual_std": 7683068.76,
+  "total_samples": 31103,
+  "train_samples": 24882,
+  "test_samples": 6221,
+  "feature_columns": [
+    "City",
+    "Locality_Grouped",
+    "Furnishing_Status",
+    "Property_Type",
+    "Area_sqft",
+    "BHK",
+    "Bathrooms",
+    "Balconies",
+    "Property_Age",
+    "Parking"
+  ],
+  "numeric_features": [
+    "Area_sqft",
+    "BHK",
+    "Bathrooms",
+    "Balconies",
+    "Property_Age",
+    "Parking"
+  ],
+  "categorical_features": [
+    "City",
+    "Locality_Grouped",
+    "Furnishing_Status",
+    "Property_Type"
+  ],
+  "models_evaluated": {
+    "Linear Regression": {
+      "MAE": 4292158.05,
+      "MSE": 61977303356586.63,
+      "RMSE": 7872566.5,
+      "R2_Score": 0.4763,
+      "Training_Time_Sec": 3.07
+    },
+    "Decision Tree Regressor": {
+      "MAE": 4429634.21,
+      "MSE": 65577409083328.77,
+      "RMSE": 8097987.97,
+      "R2_Score": 0.4459,
+      "Training_Time_Sec": 0.9
+    },
+    "Random Forest Regressor": {
+      "MAE": 4245488.12,
+      "MSE": 60348404638760.83,
+      "RMSE": 7768423.56,
+      "R2_Score": 0.4901,
+      "Training_Time_Sec": 10.87
+    },
+    "Gradient Boosting Regressor": {
+      "MAE": 4313640.66,
+      "MSE": 59030796467533.88,
+      "RMSE": 7683150.17,
+      "R2_Score": 0.5012,
+      "Training_Time_Sec": 48.5
+    }
+  },
+  "timestamp": "2026-11-20 08:13:34"
+}
